@@ -95,8 +95,14 @@ img {
 }
 
 body{
-
+display: flex;
+flex-direction: column;
 }
+
+body>div{
+padding-bottom: 15px;
+  }
+  
 
 .first,.second,.third{
   padding-bottom: 15px;
